@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/assets.json
+
+# Metro bundler cache
+.expo/web-build/
+web-build/
+*.packager
+
+# React Native packager
+*.packager
+*.jsbundle
+*.map
+
+# Expo Dev tools logs
+.expo-dev-logs/
+
+# Yarn / NPM logs
+yarn-error.log
+npm-debug.log
+pnpm-debug.log
+
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Misc
+*.log
